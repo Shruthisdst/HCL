@@ -1,0 +1,27 @@
+.title{
+	color: #E8E8F0;
+	font-size: 20px;
+}
+.title:hover{
+	color: #E8E8F0;
+}
+.small_head{
+	text-align: center;
+	margin: 0 21em 1em 21em;
+	padding: 0.3em 0em 0.3em 0em;
+	border: 1px solid #FF4D4D;
+	border-radius:10px;
+	color: #FF4D4D;
+}
+
+.col-sm-10{
+	border: 1px solid #000;
+}
+.img{
+	padding: 6em 5em;
+	border: 1px solid #000;
+}
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 70%;
+      margin: auto;
