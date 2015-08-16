@@ -61,6 +61,8 @@
 </div>
  
  <br />
+
+<p class="note">Type in Hindi (Press Ctrl+g to toggle between English and Hindi)</p>
  
  <form class="form-horizontal" role="form">
   <div class="form-group">
