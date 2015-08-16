@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>VIDYAGYAN</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/bootstrap.min.css">
-  <script src="js/jquery.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
+	<title>VIDYAGYAN</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+	<script  src="js/input_method.js"></script>
 </head>
 <body>
 
@@ -144,16 +146,176 @@
 		</div>	
 	</div>  
 	<div class="form-group">
-		<label for="id8_1" class="control-label col-xs-2">8. (अ) संरक्षक का नाम तथा पूर्ण पता : (यदि माता-पिता संरक्षक नहीं है)</label>
+		<label for="id8_1" class="control-label col-xs-2">8. (अ) संरक्षक का नाम तथा पूर्ण पता : </label>
 		<div class="col-xs-8">
+			(यदि माता-पिता संरक्षक नहीं है)
 			<input type="text" class="form-control" id="id8_1" name="id8_1"><br />
 			(ब) विद्यार्थी का संरक्षक से संबंध :
 			<input type="text" class="form-control" id="id8_2" name="id8_2">
 		</div>	
 	</div>	
+	<div class="form-group">
+		<label for="id9_1" class="control-label col-xs-2">9. पत्र-व्यवहार का पता :</label>
+		<div class="col-xs-8">
+			ग्राम का नाम : &nbsp; <input type="text" class="form-control" id="id9_1" name="id9_1"><br />
+			पोस्ट ऑफिस &nbsp; <input type="text" class="form-control" id="id9_2" name="id9_2"><br /> 
+			विकास खण्ड : &nbsp; <input type="text" class="form-control" id="id9_3" name="id9_3"><br />
+			तहसील &nbsp; <input type="text" class="form-control" id="id9_4" name="id9_4"><br /> 
+			जिला : &nbsp; <input type="text" class="form-control" id="id9_5" name="id9_5"><br />
+			पिन कोड &nbsp; <input type="text" class="form-control" id="id9_6" name="id9_6"> 			
+		</div>
+	</div>	
+	<div class="row">
+	-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	
+	</div>
+	<div class="row">
+		<div class="col-xs-12 center large bold">प्राप्ति<br />
+			फॉर्म संं० G 38010459
+		</div>	
+	</div>
+	<br />
+	<br />
+	<div class="form-group">
+		<div class="col-xs-5">
+			विद्याज्ञान स्कूल में प्रवेश हेतु प्रारम्भिक लिखित परीक्षा का आवेदन एवं प्रवेश-पत्र दिनांक 
+		</div>	
+		<div class="col-xs-3">
+			<input type="text" class="form-control" id="id_date" name="id_date">
+		</div>
+		<div class="col-xs-4">	
+			को नम्न प्रमाण-पत्र सहित आवेदक/अभिभावक के  माध्यम से प्राप्त किया ।	
+		</div>	
+	</div>
+	<div class="form-group">
+		<div class="col-xs-1">
+			1. 
+		</div>			
+		<div class="col-xs-5">
+			<input type="text" class="form-control" id="id998" name="id998">
+		</div>			
+		<div class="col-xs-1">
+			2. 
+		</div>			
+		<div class="col-xs-5">
+			<input type="text" class="form-control" id="id999" name="id999">
+		</div>			
+	</div>
+	<br />
+	<br />
+	<div class="row right">
+		<div class="col-xs-2"></div>
+		<div class="col-xs-10">
+			हस्ताक्षर प्राप्तकर्ता मुहर सहित<br />
+			पद -----------------------
+		</div>
+	</div>
+	<br />
+	<br />		
+	<div class="form-group">
+		<label for="id10_1" class="control-label col-xs-4">10. परिवार की कुल वार्षिक आय (राजस्व विभाग द्वारा निर्गत आय प्रमाण-पत्र संलग्न करें ।) रु०</label>	
+		<div class="col-xs-8">
+			<input type="text" class="form-control" id="id10_1" name="id10_1"><br />
+			 (1) पिता की कुल आय (क) खेती से रु० :
+			 <input type="text" class="form-control" id="id10_2" name="id10_2"><br />
+			(ख) नौकरी से रु०
+			<input type="text" class="form-control" id="id10_3" name="id10_3"><br />
+			(ग) अन्य स्रोतों से रु०
+			<input type="text" class="form-control" id="id10_4" name="id10_4"><br /><br />
+			 (2) माता की कुल आय (क) खेती से रु० :
+			 <input type="text" class="form-control" id="id10_5" name="id10_5"><br />
+			(ख) नौकरी से रु०
+			<input type="text" class="form-control" id="id10_6" name="id10_6"><br />
+			(ग) अन्य स्रोतों से रु०
+			<input type="text" class="form-control" id="id10_7" name="id10_7"><br /><br />
+		</div>
+	</div>
+	<div class="form-group">
+		<label for="id11_1" class="control-label col-xs-4">11. पिता/अभिभावक के परिवार की कुल भूमि का ब्यौरा :</label>	
+		<div class="col-xs-8">
+			जोत बही के अनुसार खतौनी खाता सं० :
+			<input type="text" class="form-control" id="id11_1" name="id11_1"><br />
+			एवं कुल भूमि का क्षेत्रफल :
+			<input type="text" class="form-control" id="id11_2" name="id11_2"><br />			
+			पिता/अभिभावक का कुल भूमि में अंश :
+			<input type="text" class="form-control" id="id11_3" name="id11_3">
+		</div>
+	</div>
+	<div class="form-group">
+		<label for="id12_1" class="control-label col-xs-6">12. विद्यालय/विद्यालयों का विवरण जहाँ से कक्ष 3 व 4 की परीक्षा उत्तीर्ण है तथा कक्षा 5 में अध्ययनरत है :-</label>
+	</div>	
+	<table class="table table-bordered">
+		<thead>
+		  <tr>
+			<th rowspan="2">कक्षा</th>
+			<th rowspan="2">विद्यालय का नाम एवं पता</th>
+			<th rowspan="2">राजकीय/मान्यता प्राप्त निजी विद्यालय</th>
+			<th rowspan="2">विद्यालय में प्रथम प्रवेश का दिनांक</th>
+			<th>एस०</th>
+			<th>आर०</th>
+		  </tr>
+		  <tr>
+			<th>क्रमांक</th>
+			<th>पृष्ठ संख्या</th>
+		  </tr>
+		</thead>
+		<tbody>
+		  <tr>
+			<td>कक्षा-3</td>
+			<td><input type="text" class="form-control" id="id12_1" name="id12_1"></td>
+			<td><input type="text" class="form-control" id="id12_2" name="id12_2"></td>
+			<td><input type="text" class="form-control" id="id12_3" name="id12_3"></td>
+			<td><input type="text" class="form-control" id="id12_4" name="id12_4"></td>
+			<td><input type="text" class="form-control" id="id12_5" name="id12_5"></td>
+		  </tr>
+		  <tr>
+			<td>कक्षा-4</td>
+			<td><input type="text" class="form-control" id="id12_6" name="id12_6"></td>
+			<td><input type="text" class="form-control" id="id12_7" name="id12_7"></td>
+			<td><input type="text" class="form-control" id="id12_8" name="id12_8"></td>
+			<td><input type="text" class="form-control" id="id12_9" name="id12_9"></td>
+			<td><input type="text" class="form-control" id="id12_10" name="id12_10"></td>
+		  </tr>
+		  <tr>
+			<td>कक्षा-5</td>
+			<td><input type="text" class="form-control" id="id12_11" name="id12_11"></td>
+			<td><input type="text" class="form-control" id="id12_12" name="id12_12"></td>		  
+			<td><input type="text" class="form-control" id="id12_13" name="id12_13"></td>		  
+			<td><input type="text" class="form-control" id="id12_14" name="id12_14"></td>		  
+			<td><input type="text" class="form-control" id="id12_15" name="id12_15"></td>		  
+		  </tr>
+		</tbody>
+	</table>	
+	<div class="form-group">
+		<label for="id13_1" class="control-label col-xs-4">13. आवेदक का सम्पर्क-दूरभाष (टेलीफोन एसटीडी कोड सहित/मोबाइल) जिस पर आसानी से सम्पर्क किया जा सके :</label>
+		<div class="col-xs-8">
+				1. 
+				<input type="text" class="form-control" id="id13_1" name="id13_1"><br />
+				2. 
+				<input type="text" class="form-control" id="id13_2" name="id13_2">
+		</div>
+	</div>
+	<div class="form-group">
+		<label for="id14_1" class="control-label col-xs-2">14. आवेदक के अभिभावक द्वारा घोषणा :</label>
+		<div class="col-xs-10">
+			<p>मैं यह घोषित करता हूँ कि विद्याज्ञान स्कूल में प्रवेश हेतु प्रारम्भिक लिखित परीक्षा संबंधि उपरोक्त आवेदक के परिवार के संबंध में प्रेषित उपरोक्त सुचना सही है और कोई भी तथ्य छिपाया नहीं गया है । य्दि कोई सूचना अपूर्ण, असत्य या गलत पायी जाती है तो उसके लिए मैं स्वयं उत्तरदायी होऊँगा । मेरे द्वारा अपूर्ण, असत्य या गलत सूचना देने पर विद्याज्ञान स्कूल को मेरे पुत्र/पुत्री का प्रवेश हेतु आवेदन निरस्त करने का पूर्ण अधिकार होगा । मेरे परिवार (स्वयं मैं और मेरी पत्नी) की समस्त स्रोत्रों से कुल वार्षिक आय एक लाख रुपये से अधिक नहीं है ।</p>
+			<p>मैं इस आवेदन के साथ मेरे परिवार से संबंधित निम्नलिखित प्रमाण-पत्र की छायाप्रति संलग्न कर रहा हूँ :-</p>
+			<ol>
+				<li>राजस्व विभाग द्वारा निर्गत आय प्रमाण-पत्र ।</li>
+				<li>राजस्व विभाग द्वारा निर्गत जनपद के ग्रामीण क्षेत्र के स्थायी निवास संबंधित प्रमाण-पत्र ।</li>
+			</ol>
+			अभिभावक का नाम
+			<input type="text" class="form-control" id="id14_1" name="id14_1"><br />
+			आवेदक से सम्बन्ध 
+			<input type="text" class="form-control" id="id14_2" name="id14_2"><br />
+			अभिभावक के हस्ताक्षर<br />
+			----------------------
+		</div>
+	</div>				
 </form>
 </div>
 
 
 </body>
 </html>
+
+ 
