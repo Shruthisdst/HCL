@@ -37,7 +37,7 @@
 -->
   <hr />
   <h2 class="text-center">विद्याज्ञान स्कूल - प्रारम्भिक प्रवेश परीक्षा-२०१५</h2>
-  <h3 class="text-center">आवेदन पत्र (वालिका हेतु)</h3>
+  <h3 class="text-center">आवेदन पत्र (बालिका हेतु)</h3>
   <h4 class="text-right">फॉर्म संं० G 38010459</h4>
   <h4 class="small_head">यह आवेदन पत्र निःशुल्क है |</h4>
    <div class="row">
