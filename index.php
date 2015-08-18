@@ -64,7 +64,7 @@
 
 <p class="note">Type in Hindi (Press Ctrl+g to toggle between English and Hindi)</p>
  
- <form class="form-horizontal" role="form">
+ <form  method="POST" class="form-horizontal" role="form">
   <div class="form-group">
      <label for="id1_1" class="control-label col-xs-2">1. आवेदक का नाम :</label>
         <div class="col-xs-8">
@@ -218,50 +218,6 @@
 			<input type="text" class="form-control" id="id9_6" name="id9_6"> 			
 		</div>
 	</div>	
-	<div class="row">
-	-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	
-	</div>
-	<div class="row">
-		<div class="col-xs-12 center large bold">प्राप्ति<br />
-			फॉर्म संं० G 38010459
-		</div>	
-	</div>
-	<br />
-	<br />
-	<div class="form-group">
-		<div class="col-xs-6">
-			विद्याज्ञान स्कूल में प्रवेश हेतु प्रारम्भिक लिखित परीक्षा का आवेदन एवं प्रवेश-पत्र दिनांक 	 <img class="form_images" src="images/applications/38010459/id_date.png" alt="" id="id_date_img" />
-		</div>	
-		<div class="col-xs-3">
-			<input type="text" class="form-control" id="id_date" name="id_date">
-		</div>
-		<div class="col-xs-3">	
-			को नम्न प्रमाण-पत्र सहित आवेदक/अभिभावक के  माध्यम से प्राप्त किया ।	
-		</div>	
-	</div>
-	<div class="form-group">
-		<div class="col-xs-8">
-			1. &nbsp;
-			<img class="form_images" src="images/applications/38010459/id_998.png" alt="" id="id_998_img" /><br />
-			<input type="text" class="form-control" id="id998" name="id998"><br />
-		</div>			
-		<div class="col-xs-8">
-			2. &nbsp;
-			<img class="form_images" src="images/applications/38010459/id_999.png" alt="" id="id_999_img" /><br />			
-			<input type="text" class="form-control" id="id999" name="id999">
-		</div>			
-	</div>
-	<br />
-	<br />
-	<div class="row right">
-		<div class="col-xs-2"></div>
-		<div class="col-xs-10">
-			हस्ताक्षर प्राप्तकर्ता मुहर सहित<br />
-			पद -----------------------
-		</div>
-	</div>
-	<br />
-	<br />		
 	<div class="form-group">
 		<label for="id10_1" class="control-label col-xs-4">10. परिवार की कुल वार्षिक आय (राजस्व विभाग द्वारा निर्गत आय प्रमाण-पत्र संलग्न करें ।) रु०</label>	
 		<div class="col-xs-8">
@@ -421,6 +377,60 @@
 			----------------
 		</div>
 	</div>				
+
+	<div class="row">
+		<div class="col-xs-12 center dashed_border"></div>
+	</div>
+
+	<div class="row">
+		<div class="col-xs-12 center large bold">प्राप्ति<br />
+			फॉर्म संं० G 38010459
+		</div>	
+	</div>
+	<br />
+	<br />
+	<div class="form-group">
+		<div class="col-xs-6">
+			विद्याज्ञान स्कूल में प्रवेश हेतु प्रारम्भिक लिखित परीक्षा का आवेदन एवं प्रवेश-पत्र दिनांक 	 <img class="form_images" src="images/applications/38010459/id_date.png" alt="" id="id_date_img" />
+		</div>	
+		<div class="col-xs-3">
+			<input type="text" class="form-control" id="id_date" name="id_date">
+		</div>
+		<div class="col-xs-3">	
+			को नम्न प्रमाण-पत्र सहित आवेदक/अभिभावक के  माध्यम से प्राप्त किया ।	
+		</div>	
+	</div>
+	<div class="form-group">
+		<div class="col-xs-8">
+			1. &nbsp;
+			<img class="form_images" src="images/applications/38010459/id_998.png" alt="" id="id_998_img" /><br />
+			<input type="text" class="form-control" id="id998" name="id998"><br />
+		</div>			
+		<div class="col-xs-8">
+			2. &nbsp;
+			<img class="form_images" src="images/applications/38010459/id_999.png" alt="" id="id_999_img" /><br />			
+			<input type="text" class="form-control" id="id999" name="id999">
+		</div>			
+	</div>
+	<br />
+	<br />
+	<div class="row right">
+		<div class="col-xs-10 center">
+			<button type="submit" class="btn btn-default">Submit</button>&nbsp;&nbsp;&nbsp;
+			<button type="reset" class="btn btn-default">Reset</button>
+		</div>
+		<div class="col-xs-2">
+			हस्ताक्षर प्राप्तकर्ता मुहर सहित<br />
+			पद -----------------------
+		</div>
+	</div>
+	<div class="form-group">
+		<div class="col-xs-10"></div>
+		<div class="col-xs-2 right">
+		</div>
+	</div>	
+
+
 </form>
 </div>
 
