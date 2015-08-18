@@ -122,12 +122,9 @@
 	<div class="form-group">
 		<label for="id4_1" class="control-label col-xs-2">4. 30.6.2015 को आयु :</label>
 		<div class="col-xs-7">
-			<img class="form_images" src="images/applications/38010459/id4_1.jpg" alt="" id="id4_1_img" /><br />
+			(जन्म प्रमाण-पत्र के अनुसार)&nbsp;&nbsp;<img class="form_images" src="images/applications/38010459/id4_1.jpg" alt="" id="id4_1_img" /><br />
 			<input type="text" class="form-control" id="id4_1" name="id4_1">
 		</div>
-		<div class="col-xs-3">
-			(जन्म प्रमाण-पत्र के अनुसार)
-		</div>	
 	</div>
 	<div class="form-group">
 		<label for="id5_1" class="control-label col-xs-2">5. पिता का नाम :</label>
